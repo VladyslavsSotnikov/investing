@@ -1,0 +1,65 @@
+.app {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* color: white; */
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+.settings-wrapper {
+  padding: 5px;
+  width: 400px;
+}
+
+.settings-wrapper--bordered {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.settings-item {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.settings-input {
+  width: 100px;
+}
+
+.monthly-allocation,
+.balanced-allocation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 600px;
+}
+
+.allocation-result {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  padding: 5px;
+  width: 600px;
+}
+
+.allocation-item {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
